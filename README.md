@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Figma Demo - Partnership Page
 
-## Getting Started
+这是一个基于Next.js和Tailwind CSS构建的A-Premium合作伙伴页面，使用Figma设计数据生成。
 
-First, run the development server:
+## 项目结构
+
+```
+figma-demo/
+├── app/
+│   ├── page.tsx          # 主页面
+│   ├── layout.tsx        # 根布局
+│   └── globals.css       # 全局样式
+├── components/
+│   ├── Header.tsx        # 顶部导航栏
+│   ├── Hero.tsx          # Hero区域
+│   ├── ContactSection.tsx # 联系区域
+│   ├── PartnershipVision.tsx # 合作愿景
+│   ├── InfluencerCollaborations.tsx # 影响者合作
+│   ├── PartnershipCollaborations.tsx # 合作伙伴合作
+│   ├── Newsletter.tsx    # Newsletter订阅
+│   └── Footer.tsx        # 页脚
+└── README.md
+```
+
+## 功能特性
+
+- ✅ 完全响应式设计
+- ✅ 基于Figma设计数据生成
+- ✅ 使用Tailwind CSS实现样式
+- ✅ TypeScript支持
+- ✅ 组件化架构
+
+## 页面组成
+
+1. **Header** - 包含顶部横幅、Logo、搜索栏、用户信息和购物车
+2. **Hero** - 大标题区域展示"Join the A-Premium Partnership Program"
+3. **Contact Section** - 联系信息和CTA按钮
+4. **Partnership Vision** - 展示公司合作愿景
+5. **Influencer Collaborations** - 针对内容创作者的合作机会
+6. **Partnership Collaborations** - 详细的合作伙伴类型说明
+7. **Newsletter** - 邮件订阅表单
+8. **Footer** - 包含联系方式、链接和社交媒体
+
+## 开发
+
+首次运行前，安装依赖：
+
+```bash
+npm install
+```
+
+启动开发服务器：
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+在浏览器中打开 [http://localhost:3000](http://localhost:3000) 查看页面。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 构建
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+创建生产环境构建：
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+启动生产服务器：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 技术栈
 
-## Deploy on Vercel
+- **Next.js 15** - React框架
+- **TypeScript** - 类型安全
+- **Tailwind CSS** - 实用优先的CSS框架
+- **React 19** - UI库
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 从Figma获取的设计数据
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+项目使用Figma MCP工具从以下设计文件生成：
+
+- Figma文件: Partnership
+- 节点ID: 3-12022
+- 文件链接: https://www.figma.com/design/j4VaHkpalK0hD8Ch8I9VLY/Partnership?node-id=3-12022
+
+## 许可证
+
+MIT
