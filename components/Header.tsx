@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="w-full bg-white">
       {/* Top Banner */}
-      <div className="bg-cover bg-center py-2 px-14" style={{ backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))' }}>
+      <div className="bg-cover bg-center py-2 px-14" style={{ backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/header-bg.png)' }}>
         <div className="flex items-center justify-between text-white text-sm">
           <div className="flex items-center gap-3">
             <svg className="w-4 h-4" viewBox="0 0 16 16" fill="white">

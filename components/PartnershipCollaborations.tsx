@@ -1,8 +1,14 @@
 export default function PartnershipCollaborations() {
   return (
     <section className="flex gap-[50px]">
-      {/* Image Placeholder */}
-      <div className="flex-1 h-[500px] bg-gradient-to-br from-gray-300 to-gray-400 rounded-lg"></div>
+      {/* Image */}
+      <div className="flex-1 h-[500px] rounded-lg overflow-hidden">
+        <img
+          src="/images/partnership-collaborations.png"
+          alt="Partnership Collaborations"
+          className="w-full h-full object-cover"
+        />
+      </div>
 
       {/* Content */}
       <div className="flex-1 flex flex-col gap-6">

@@ -4,8 +4,11 @@ export default function Hero() {
       {/* Background Image - positioned absolutely */}
       <div className="absolute right-0 top-[-24px] w-[990px] h-[555px] opacity-50">
         <div className="relative w-full h-full">
-          {/* Placeholder for background image */}
-          <div className="absolute inset-0 bg-gradient-to-r from-gray-700 to-gray-600 opacity-30"></div>
+          <img
+            src="/images/hero-bg.png"
+            alt="Hero background"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
         </div>
       </div>
 
